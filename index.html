@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<!-- Resolvi retirar o header para facilitar a centralização do container main -->
+  <!-- <header class="cabecalho">
+    <h2 class="cabecalho__title">S P L I<br>T T E R</h2>
+  </header> -->
+
+  <main class="content">
+
+    <section class="content__form">
+      <div class="form__bill form__div">
+
+        <div class="container__label">
+          <label for="bill__input" class="bill__title input-title">Bill</label>
+          <label for="bill__input" class="bill__error error">Can't be zero</label>
+        </div>
+
+        <div class="container-input">
+          <input type="number" name="bill__input" id="bill-input">
+          <img src="images/icon-dollar.svg" alt="Bill" class="container-input__icon">
+        </div>
+
+      </div>
+
+      <div class="form__percent form__div">
+        <div class="container__label">
+          <label class="percent__title input-title">Selected Tip %</label>
+          <label class="people__error error">Can't be zero</label>
+        </div>
+
+        <ul class="percent__items">
+          <li class="items__item">5%</li>
+          <li class="items__item">10%</li>
+          <li class="items__item">15%</li>
+          <li class="items__item">25%</li>
+          <li class="items__item">50%</li>
+          <li class="items__item items__custom">Custom</li>
+          <input type="number" class="items__item items__input">
+        </ul>
+      </div>
+
+      <div class="form__people form__div">
+        <div class="container__label">
+          <label for="people__input" class="people__title input-title">Number of People</label>
+          <label for="people__input" class="people__error error">Can't be zero</label>
+        </div>
+
+        <div class="container-input">
+           <input type="number" name="people__input" id="people-input">
+           <img src="images/icon-person.svg" alt="people" class="container-input__icon">
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="content__results">
+      <div class="results__tip-amount">
+        <div class="tip-amount__text">
+          <p>Tip Amount</p>
+          <p class="text__person">/ person</p>
+        </div>
+
+        <h1 class="tip-amount__value">$4.27</h1>
+      </div>
+
+      <div class="results__total">
+        <div class="total__text">
+          <p>Total</p>
+          <p class="text__person">/ person</p>
+        </div>
+
+        <h1 class="total__value">$32.79</h1>
+      </div>
+
+      <button class="results__resetButton">Reset</button>
+    </section>
+    
+
+  </main>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
