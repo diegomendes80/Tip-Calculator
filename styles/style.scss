@@ -126,7 +126,10 @@ header{
                     background-color: var.$strong-cyan;
                     color:var.$very-dark-cyan;
                 }
-
+                .selected-input{
+                    background-color: var.$strong-cyan;
+                    color:var.$very-dark-cyan;
+                }
                 .items__custom{
                     // display: none;
                     background-color: var.$very-light-grayish-cyan;

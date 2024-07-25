@@ -117,6 +117,10 @@ header h2 {
   background-color: hsl(172, 67%, 45%);
   color: hsl(183, 100%, 15%);
 }
+.content .content__form .form__percent .percent__items .selected-input {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
 .content .content__form .form__percent .percent__items .items__custom {
   background-color: hsl(189, 41%, 97%);
   color: hsl(183, 100%, 15%);
